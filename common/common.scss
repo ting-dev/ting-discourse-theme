@@ -11,6 +11,7 @@
 body {
   --heading-font-family: LausanneBold;
   --font-family: Lausanne;
+  font-family: var(--font-family);
 }
 
 h1,
