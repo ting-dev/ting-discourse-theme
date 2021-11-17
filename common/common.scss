@@ -264,7 +264,7 @@ html body #main-outlet {
     margin-top: 0;
   }
   padding-bottom: 5% !important; //overriding inline style
-  @include box-shadow;
+  // @include box-shadow;
   @media screen and (max-width: 1120px) {
     width: 80%;
   }
@@ -500,4 +500,14 @@ td.num.views, th.num.views {
     position: fixed;
     z-index: 0;
   }
+}
+
+.full-width .contents .topic-list tbody tr:not(.topic-list-item-separator) {
+  border: 0;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.full-width .contents .topic-list tbody tr:not(.topic-list-item-separator):hover {
+  border: 0;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
