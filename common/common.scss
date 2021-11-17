@@ -8,6 +8,20 @@
   src: url($lausanneBold) format('woff2')
 }
 
+body {
+  --heading-font-family: LausanneBold;
+  --font-family: Lausanne;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
