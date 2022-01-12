@@ -20,7 +20,8 @@
       "highlight": "FFE800",
       "danger": "fc5d33",
       "success": "0F9353",
-      "love": "7336F1"
+      "love": "7336F1",
+      "divider": "e1e1e1"
     },
     "air-dark": {
       "primary": "E0E0E0",
