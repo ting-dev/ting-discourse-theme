@@ -1,3 +1,7 @@
+::root {
+  --divider: #e1e1e1;
+}
+
 @font-face {
   font-family: Lausanne;
   src: url($lausanne) format('woff2')
